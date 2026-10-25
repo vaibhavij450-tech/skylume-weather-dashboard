@@ -2,7 +2,8 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import "./App.css";
 
-const API_URL = "http://localhost:5000/api/weather?city=";
+
+const API_URL = "https://skylume-weather-api.onrender.com/api/weather?city=";
 const ARCHIVE_URL = "https://archive-api.open-meteo.com/v1/archive";
 
 function getCondition(code) {
