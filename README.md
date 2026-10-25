@@ -1,16 +1,24 @@
-# React + Vite
+# Skylume Weather Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive weather dashboard built with React and Vite, with an Express.js backend and live weather data from Open-Meteo.
 
-Currently, two official plugins are available:
+**Live Demo:** https://skylume-weather-dashboard-1.onrender.com
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
+- Live weather conditions and city search
+- 7-day weather forecasts
+- Historical weather data and charts
+- Temperature, humidity, and rainfall visualizations
+- Saved locations
+- Weather alerts and browser notifications
 
-## React Compiler
+## Tech Stack
+- Frontend: React, Vite, CSS
+- Backend: Node.js, Express.js
+- Weather Data: Open-Meteo API
+- Deployment: Render
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Run Locally
+1. Install dependencies in the frontend and `backend` directories with `npm install`.
+2. Start the Express backend using `npm start` from the backend directory.
+3. Start the Vite frontend using `npm run dev` from the project root.
